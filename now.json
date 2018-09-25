@@ -2,7 +2,7 @@
   "name": "distance-learning-lp",
   "type": "static",
   "alias": [
-    "lp.stage-onlineschool.ru"
+    "lp.onlineschool.ru"
   ],
   "static": {
     "directoryListing": false,
