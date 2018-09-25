@@ -1,0 +1,14 @@
+{
+  "name": "distance-learning-lp",
+  "type": "static",
+  "alias": [
+    "lp.onlineschool.ru",
+    "lp.stage-onlineschool.ru"
+  ],
+  "scale": {
+    "bru1": {
+      "min": 1,
+      "max": "auto"
+    }
+  }
+}
