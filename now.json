@@ -4,9 +4,11 @@
   "alias": [
     "lp.stage-onlineschool.ru"
   ],
-  "redirects": [
-    { "source": "/", "destination": "https://www.onlineschool.ru" }
-  ],
+  "static": {
+    "redirects": [
+      { "source": "/", "destination": "https://www.onlineschool.ru" }
+    ]
+  },
   "scale": {
     "bru1": {
       "min": 1,
