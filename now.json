@@ -5,6 +5,8 @@
     "lp.stage-onlineschool.ru"
   ],
   "static": {
+    "directoryListing": false,
+    "trailingSlash": true,
     "redirects": [
       { "source": "/", "destination": "https://www.onlineschool.ru" }
     ]
