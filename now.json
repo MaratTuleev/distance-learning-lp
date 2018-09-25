@@ -2,8 +2,7 @@
   "name": "distance-learning-lp",
   "type": "static",
   "alias": [
-    "lp.onlineschool.ru",
-    "lp.stage-onlineschool.ru"
+    "lp.onlineschool.ru"
   ],
   "scale": {
     "bru1": {
