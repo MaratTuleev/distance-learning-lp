@@ -1,0 +1,68 @@
+<!doctype html>
+<html class="no-js">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link href="assets/css/style.min.css" rel="stylesheet">
+
+
+  </head>
+  <body>
+  <main class="wrapper">
+    <div class="wrapper__inner wrapper__inner--sliced">
+      <div class="row prize">
+        <div class="col-xs-12 col-md-6 prize__part prize__part--left">
+          <article class="prize__desc">
+            <h1>
+              Поздравляем!
+              <br />
+              Вы получили приз
+            </h1>
+            <h3>
+              Приз содержит
+            </h3>
+            <ul class="ul prize__list">
+              <li class="ul__li">Персональное онлайн-занятие по английскому языку один на один с преподавателем</li>
+              <li class="ul__li">Cкидка 10% на покупку занятий по английскому языку в OnlineSchool</li>
+              <!-- <li class="ul__li">Увлекательные занятия с опытным преподавателем в привычной обстановке</li> -->
+            </ul>
+          </article>
+        </div>
+        <div class="col-xs-12 col-md-6 prize__part prize__part--right">
+          <div class="bg-pic">
+            <div class="bg-pic__inner"></div>
+          </div>
+          <form action="https://www.onlineschool.ru/api/v1/parent_signup_redirect" method="post"  class="discount" id="dicount_form">
+            <div class="discount__heading">Получите скидку на обучение</div>
+
+            <input type="hidden" name="utm_source" value="pandaolymp">
+            <input type="hidden" name="utm_medium" value="bonus">
+            <input type="hidden" name="utm_campaign" value="20181105panda123">
+
+            <div class="discount__input-wrap">
+              <input type="text" class="text-input discount__input" name="first_name"  data-chars='["engLetters", "rusLetters"]' minlength="4" id="form_name" placeholder="Имя родителя" required>
+            </div>
+
+            <div class="discount__input-wrap">
+              <input type="text" class="text-input discount__input" name="phone" data-chars='["numbers", "symbols"]' maxlength="18" id="form_phone" placeholder="Телефон родителя" required>
+            </div>
+
+            <!-- <div class="discount__input-wrap">
+              <input type="text" class="text-input discount__input" placeholder="Промокод">
+            </div> -->
+            <a href="#" class="discount__submit btn btn--red btn--fw btn--md disabled" id="form_submit">Получить приз</a>
+          </form>
+        </div>
+      </div>
+    </div>
+  </main>
+
+    <script src="assets/js/jquery/jquery.min.js" type="text/javascript"></script>
+    <script src="assets/js/jquery/jquery.inputmask.js" type="text/javascript"></script>
+    <script src="assets/js/scripts.js" type="text/javascript"></script>
+  </body>
+</html>
