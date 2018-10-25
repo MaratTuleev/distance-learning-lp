@@ -11,7 +11,7 @@
         }, options);
 
     var regExpParts = {
-      leftPart: '^([',
+      leftPart: '^([ ',
       rightPart: ']+|\d+)$',
       engLetters: 'a-zA-Z',
       rusLetters: 'а-яёА-ЯЁ',
@@ -133,7 +133,7 @@
 
       fields.forEach(function (field, f) {
         var state = field.dataset.validation
-        
+
         if (state === 'invalid' || state === 'undefined') {
           res = false
         }
