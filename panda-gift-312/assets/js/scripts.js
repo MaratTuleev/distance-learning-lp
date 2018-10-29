@@ -104,7 +104,8 @@
   }
 
   $(function () {
-    var nameInput = document.querySelector('#form_name'),
+    var form = document.querySelector('#dicount_form'),
+        nameInput = document.querySelector('#form_name'),
         phoneInput = document.querySelector('#form_phone'),
         submit = document.querySelector('#form_submit'),
         validateStore = window.validStore = {},
@@ -128,7 +129,6 @@
 
     submit.addEventListener('click', function (e) {
       var fields = document.querySelectorAll('[data-validation]'),
-          df = document.querySelector('#dicount_form'),
           res = true;
 
       fields.forEach(function (field, f) {
@@ -140,7 +140,29 @@
       })
 
       if (res) {
-        df.submit()
+        form.submit()
+      }
+
+      return false
+    })
+
+    form.addEventListener('keydown', function () {
+      var keyName = event.key,
+          fields = document.querySelectorAll('[data-validation]'),
+          res = true;
+
+      if (keyName === 'Enter') {
+        fields.forEach(function (field, f) {
+          var state = field.dataset.validation
+
+          if (state === 'invalid' || state === 'undefined') {
+            res = false
+          }
+        })
+
+        if (res) {
+          form.submit()
+        }
       }
 
       return false
