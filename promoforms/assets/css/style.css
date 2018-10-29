@@ -673,12 +673,8 @@ button {
     -ms-flex-pack: center;
         justify-content: center;
     width: 100%; }
-  r
-.btn[disabled="disabled"], .btn[disabled], .btn:disabled, .btn--disabled {
-    cursor: not-allowed;
+  .btn[disabled="disabled"], .btn[disabled], .btn:disabled, .btn--disabled {
     pointer-events: none; }
-  .btn.disabled {
-    cursor: not-allowed; }
 
 .prize {
   max-width: 820px;
@@ -739,7 +735,7 @@ button {
     .discount__input[data-validation="invalid"] {
       border-color: #ff6373; }
     .discount__input[data-validation="valid"] {
-      border-color: #18a255; }
+      border-color: transparent; }
 
 .bg-pic {
   position: absolute;

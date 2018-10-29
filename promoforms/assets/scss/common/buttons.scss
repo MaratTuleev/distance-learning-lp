@@ -173,17 +173,17 @@ button {
     display: flex;
     justify-content: center;
     width: 100%;
-  }r
+  }
   &[disabled="disabled"],
   &[disabled],
   &:disabled,
   &--disabled {
     // background-color: $gray;
-    cursor: not-allowed;
+    // cursor: not-allowed;
     pointer-events: none;
   }
   &.disabled {
     // background-color: $gray;
-    cursor: not-allowed;
+    // cursor: not-allowed;
   }
 }

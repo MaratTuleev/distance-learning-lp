@@ -78,13 +78,14 @@
       border-color: $red;
     }
     &[data-validation="valid"] {
-      border-color: $green;
+      // border-color: $green;
+      border-color: transparent;
     }
   }
   &__submit {
     &[disabled],
     &[disabled="disabled"] {
-      
+
     }
   }
 }
