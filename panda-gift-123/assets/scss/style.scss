@@ -78,13 +78,14 @@
       border-color: $red;
     }
     &[data-validation="valid"] {
-      border-color: $green;
+      // border-color: $green;
+      border-color: transparent;
     }
   }
   &__submit {
     &[disabled],
     &[disabled="disabled"] {
-      
+
     }
   }
 }
@@ -122,10 +123,6 @@
       height: 313px;
       top: 22px;
       left: -22px;
-      background-image: url(../img/form_bg.png);
-      background-repeat: no-repeat;
-      background-size: contain;
-      background-position: center;
     }
   }
 }
