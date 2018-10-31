@@ -136,6 +136,7 @@
 
         if (state === 'invalid' || state === 'undefined') {
           res = false
+          field.dataset.validation = 'invalid'
         }
       })
 
@@ -157,6 +158,7 @@
 
           if (state === 'invalid' || state === 'undefined') {
             res = false
+            field.dataset.validation = 'invalid'
           }
         })
 
