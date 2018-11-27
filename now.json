@@ -8,7 +8,8 @@
     "directoryListing": false,
     "trailingSlash": true,
     "redirects": [
-      { "source": "/", "destination": "https://www.onlineschool.ru" }
+      { "source": "/", "destination": "https://www.onlineschool.ru" },
+      { "source": "/zavriki-gift-tyumen", "destination": "/"}
     ]
   },
   "scale": {
