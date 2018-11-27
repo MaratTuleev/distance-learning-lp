@@ -9,7 +9,7 @@
     "trailingSlash": true,
     "redirects": [
       { "source": "/", "destination": "https://www.onlineschool.ru" },
-      { "source": "/zavriki-gift-tyumen", "destination": "/"}
+      { "source": "/zavriki-gift-tyumen", "destination": "/" }
     ]
   },
   "scale": {
