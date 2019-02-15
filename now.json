@@ -9,7 +9,11 @@
     "trailingSlash": true,
     "redirects": [
       { "source": "/", "destination": "https://www.onlineschool.ru" },
-      { "source": "/zavriki-gift-tyumen", "destination": "/" }
+      { "source": "/zavriki-gift-tyumen", "destination": "/" },
+      { "source": "/zavriki-gift-moscow", "destination": "/" },
+      { "source": "/panda-gift-123", "destination": "/" },
+      { "source": "/panda-gift-231", "destination": "/" },
+      { "source": "/panda-gift-312", "destination": "/" }
     ]
   },
   "scale": {
