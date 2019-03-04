@@ -12,7 +12,7 @@
   <priority>1.00</priority>
 </url>
 <url>
-  <loc>https://lp.onlineschool.ru/teachers-privacy/</loc>
+  <loc>https://lp.onlineschool.ru/legal/teachers-privacy/</loc>
   <lastmod>2019-02-21T13:19:39+00:00</lastmod>
   <priority>0.80</priority>
 </url>
@@ -22,8 +22,13 @@
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://lp.onlineschool.ru/oferta/</loc>
+  <loc>https://lp.onlineschool.ru/legal/oferta/</loc>
   <lastmod>2019-03-1T13:13:28+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://lp.onlineschool.ru/legal/contract/</loc>
+  <lastmod>2019-03-1T13:18:36+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 
