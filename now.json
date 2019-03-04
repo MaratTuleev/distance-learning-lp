@@ -13,7 +13,9 @@
       { "source": "/zavriki-gift-moscow", "destination": "/" },
       { "source": "/panda-gift-123", "destination": "/" },
       { "source": "/panda-gift-231", "destination": "/" },
-      { "source": "/panda-gift-312", "destination": "/" }
+      { "source": "/panda-gift-312", "destination": "/" },
+      { "source": "/oferta", "destination": "/legal/oferta" },
+      { "source": "/teachers-privacy", "destination": "/legal/teachers-privacy" }
     ]
   },
   "scale": {
