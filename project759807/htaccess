@@ -1,0 +1,36 @@
+ErrorDocument 403 /404.html
+ErrorDocument 404 /404.html
+
+DirectoryIndex page3198963.html
+
+RewriteEngine On
+
+RewriteRule ^faq$ page4744222.html [NC]
+RewriteRule ^faq/$ page4744222.html [NC]
+
+RewriteRule ^legal/teachers-privacy$ page4571709.html [NC]
+RewriteRule ^legal/teachers-privacy/$ page4571709.html [NC]
+
+RewriteRule ^stat-uchitelem$ page4374730.html [NC]
+RewriteRule ^stat-uchitelem/$ page4374730.html [NC]
+
+RewriteRule ^legal/oferta$ page5010308.html [NC]
+RewriteRule ^legal/oferta/$ page5010308.html [NC]
+
+RewriteRule ^legal/contract$ page5013535.html [NC]
+RewriteRule ^legal/contract/$ page5013535.html [NC]
+
+RewriteRule ^legal/privacy$ page5035653.html [NC]
+RewriteRule ^legal/privacy/$ page5035653.html [NC]
+
+RewriteRule ^faq/teachers$ page5075693.html [NC]
+RewriteRule ^faq/teachers/$ page5075693.html [NC]
+
+RewriteRule ^lp/zavriki$ page5118471.html [NC]
+RewriteRule ^lp/zavriki/$ page5118471.html [NC]
+
+RewriteRule ^lp/certificate$ page5145523.html [NC]
+RewriteRule ^lp/certificate/$ page5145523.html [NC]
+
+RewriteRule ^favicon.ico$ https://static.tildacdn.com/tild3230-3839-4532-a435-616431303437/favicon.ico [R=301,L]
+

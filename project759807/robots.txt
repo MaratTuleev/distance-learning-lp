@@ -1,0 +1,10 @@
+User-Agent: *
+Disallow: /page4745291.html
+Disallow: /tilda/form*
+Disallow: /tilda/rec*
+Disallow: /tilda/click*
+Disallow: /tilda/scroll*
+Disallow: /tilda/popup*
+Disallow:
+Sitemap: http://onlineschool.ru/sitemap.xml
+Host: onlineschool.ru
