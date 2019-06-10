@@ -18,7 +18,8 @@
       { "source": "/teachers-privacy", "destination": "/legal/teachers-privacy" }
     ],
     "rewrites": [
-      { "source": "/test/", "destination": "/parents/**" }
+      { "source": "/test/", "destination": "/parents/index.html" },
+      { "source": "/test/css/**", "destination": "/parents/css/*"} 
     ]
   },
   "scale": {
