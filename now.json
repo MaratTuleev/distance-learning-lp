@@ -16,6 +16,9 @@
       { "source": "/panda-gift-312", "destination": "/" },
       { "source": "/oferta", "destination": "/legal/oferta" },
       { "source": "/teachers-privacy", "destination": "/legal/teachers-privacy" }
+    ],
+    "rewrites": [
+      { "source": "/test", "destination": "/parents/index.html" }
     ]
   },
   "scale": {
