@@ -3,7 +3,8 @@
   "name": "distance-learning-lp",
   "type": "static",
   "alias": [
-    "lp.onlineschool.ru"
+    "lp.onlineschool.ru",
+    "www.onlineschool.ru"
   ],
   "static": {
     "directoryListing": false,
