@@ -10,6 +10,7 @@
     "directoryListing": false,
     "trailingSlash": true,
     "redirects": [
+      { "source": "/downloads", "destination": "https://app.onlineschool.ru/downloads" },
       { "source": "/zavriki-gift-tyumen", "destination": "/" },
       { "source": "/zavriki-gift-moscow", "destination": "/" },
       { "source": "/panda-gift-123", "destination": "/" },
