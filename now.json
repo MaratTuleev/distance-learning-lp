@@ -22,7 +22,9 @@
       { "source": "/zavriki-sertifikat", "destination": "/lp/zavriki-sertifikat" },
       { "source": "/zavriki-03-2019", "destination": "/lp/zavriki-03-2019" },
       { "source": "/zavriki-03-2019-full", "destination": "/lp/zavriki-03-2019-full" },
-      { "source": "/invite-04-2019", "destination": "/lp/invite-04-2019" }
+      { "source": "/invite-04-2019", "destination": "/lp/invite-04-2019" },
+      { "source": "/stat-uchitelem", "destination": "/hr/tutors" },
+      { "source": "/mvu", "destination": "/hr/mvu" }
     ]
   },
   "scale": {
