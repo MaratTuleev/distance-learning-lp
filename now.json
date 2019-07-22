@@ -19,7 +19,11 @@
       { "source": "/oferta", "destination": "/legal/oferta" },
       { "source": "/invite-04-2019", "destination": "/lp/invite-04-2019" },
       { "source": "/teachers-privacy", "destination": "/legal/teachers-privacy" },
+<<<<<<< HEAD
       { "source": "/zavriki-sertifikat", "destination": "/lp/zavriki-sertifikat" },
+=======
+      { "source": "/zavriki-sertifikat", "destination": "/lp/zavriki-sertifikat" }
+>>>>>>> bc85b438d138e089419892ba95af0825f70ad75c
       { "source": "/zavriki-03-2019", "destination": "/lp/zavriki-03-2019" },
       { "source": "/zavriki-03-2019-full", "destination": "/lp/zavriki-03-2019-full" },
       { "source": "/invite-04-2019", "destination": "/lp/invite-04-2019" }
