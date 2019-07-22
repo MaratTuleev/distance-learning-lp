@@ -7,12 +7,27 @@
 
 
 <url>
-  <loc>https://lp.onlineschool.ru/stat-uchitelem/</loc>
+  <loc>https://onlineschool.ru/stat-uchitelem/</loc>
   <lastmod>2019-02-21T13:19:39+00:00</lastmod>
   <priority>1.00</priority>
 </url>
 <url>
-  <loc>https://lp.onlineschool.ru/faq/</loc>
+  <loc>https://onlineschool.ru/group/</loc>
+  <lastmod>2019-07-21T13:19:39+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://onlineschool.ru/mvu/</loc>
+  <lastmod>2019-07-21T13:19:39+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://onlineschool.ru/faq/</loc>
+  <lastmod>2019-02-21T13:19:39+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://onlineschool.ru/faq/teachers</loc>
   <lastmod>2019-02-21T13:19:39+00:00</lastmod>
   <priority>0.80</priority>
 </url>
@@ -22,17 +37,17 @@
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://lp.onlineschool.ru/legal/privacy/</loc>
+  <loc>https://onlineschool.ru/legal/privacy/</loc>
   <lastmod>2019-03-4T13:19:39+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://lp.onlineschool.ru/legal/contract/</loc>
+  <loc>https://onlineschool.ru/legal/contract/</loc>
   <lastmod>2019-03-1T13:18:36+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://lp.onlineschool.ru/legal/teachers-privacy/</loc>
+  <loc>https://onlineschool.ru/legal/teachers-privacy/</loc>
   <lastmod>2019-02-21T13:19:39+00:00</lastmod>
   <priority>0.80</priority>
 </url>

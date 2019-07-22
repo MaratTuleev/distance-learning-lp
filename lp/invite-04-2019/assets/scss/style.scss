@@ -1,0 +1,128 @@
+@import "common/reset";
+@import "common/vars";
+@import "common/mixins";
+@import "common/base";
+@import "common/grid";
+@import "common/typografy";
+@import "common/buttons";
+
+.prize {
+  max-width: 820px;
+  margin: 0 auto;
+  &__part {
+    &--left {
+      @media (min-width: 494px) {
+
+      }
+      @media (min-width: 820px) {
+        padding-top: 94px;
+      }
+    }
+    &--right {
+      position: relative;
+      display: flex;
+      justify-content: flex-end;
+      padding-top: 0;
+      @media (min-width: 494px) {
+      padding-top: 188px;
+      }
+    }
+  }
+  &__desc {
+    max-width: 420px;
+    margin: 0 auto;
+    @media (min-width: 820px) {
+      max-width: none;
+    }
+  }
+}
+
+.discount {
+  position: relative;
+  max-width: 360px;
+  width: 100%;
+  padding: 30px 30px 40px;
+  border-radius: 10px;
+  background-color: $form_bg;
+  @media (max-width: 819px) {
+    margin: 0 auto;
+  }
+  &__heading {
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 17px;
+    color: #fff;
+  }
+  &__input-wrap {
+    margin-bottom: 20px;
+  }
+  &__input {
+    display: block;
+    width: 100%;
+    height: 40px;
+    padding: 0 10px;
+    border: 2px solid transparent;
+    border-radius: 5px;
+    text-align: center;
+    line-height: 36px;
+    font-size: 17px;
+    transition: all ease .3s;
+    &:focus {
+      outline: none;
+      border-color: $blue;
+    }
+    &:placeholder {
+      color: $ph_color;
+    }
+    &[data-validation="invalid"] {
+      border-color: $red;
+    }
+    &[data-validation="valid"] {
+      // border-color: $green;
+      border-color: transparent;
+    }
+  }
+  &__submit {
+    &[disabled],
+    &[disabled="disabled"] {
+
+    }
+  }
+}
+
+.bg-pic {
+  position: absolute;
+  display: none;
+  @media (min-width: 494px) {
+    display: block;
+    width: 494px;
+    top: 24px;
+    left: 50%;
+    margin-left: 20px;
+    transform: translateX(-50%);
+  }
+  @media (min-width: 820px) {
+    max-width: 494px;
+    width: 100%;
+    top: 22px;
+    left: -22px;
+    transform: translateX(0);
+  }
+  &__inner {
+    width: 494px;
+    padding-bottom: 63%;
+    background-image: url(../img/form_bg.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    @include retina {
+      background-image: url(../img/form_bg@2x.png);
+    }
+    @media (min-width: 820px) {
+      max-width: 494px;
+      height: 313px;
+      top: 22px;
+      left: -22px;
+    }
+  }
+}
