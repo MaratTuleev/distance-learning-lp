@@ -1,7 +1,6 @@
 {
   "version": 2,
   "name": "distance-learning-lp",
-  "type": "static",
   "alias": [
     "lp.onlineschool.ru"
   ],
