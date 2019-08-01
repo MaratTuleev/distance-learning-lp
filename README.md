@@ -3,7 +3,7 @@
 # Start
 
 ```
-$ serve
+$ now dev
 ```
 
 # Deploy
@@ -14,6 +14,6 @@ or
 
 2.
 ```
-$ now
+$ now --target production
 $ now alias
 ```
