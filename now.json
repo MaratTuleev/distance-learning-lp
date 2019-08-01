@@ -11,10 +11,5 @@
       "headers": { "Location": "https://www.onlineschool.ru/$1" }
     }
   ],
-  "scale": {
-    "bru1": {
-      "min": 1,
-      "max": "auto"
-    }
-  }
+  "regions": ["bru1"]
 }
