@@ -1,15 +1,38 @@
 {
-  "version": 2,
+  "version": 1,
   "name": "distance-learning-lp",
+  "type": "static",
   "alias": [
     "lp.onlineschool.ru"
   ],
-  "routes": [
-    {
-      "src": "/(.*)",
-      "status": 301,
-      "headers": { "Location": "https://www.onlineschool.ru/$1" }
+  "static": {
+    "directoryListing": false,
+    "trailingSlash": true,
+    "redirects": [
+      { "source": "/", "destination": "https://www.onlineschool.ru/" },
+      { "source": "/downloads", "destination": "https://app.onlineschool.ru/downloads" },
+      { "source": "/zavriki-gift-tyumen", "destination": "/" },
+      { "source": "/zavriki-gift-moscow", "destination": "/" },
+      { "source": "/panda-gift-123", "destination": "/" },
+      { "source": "/panda-gift-231", "destination": "/" },
+      { "source": "/panda-gift-312", "destination": "/" },
+      { "source": "/oferta", "destination": "/legal/oferta" },
+      { "source": "/invite-04-2019", "destination": "/lp/invite-04-2019" },
+      { "source": "/teachers-privacy", "destination": "/legal/teachers-privacy" },
+      { "source": "/zavriki-sertifikat", "destination": "/lp/zavriki-sertifikat" },
+      { "source": "/zavriki-03-2019", "destination": "/lp/zavriki-03-2019" },
+      { "source": "/zavriki-03-2019-full", "destination": "/lp/zavriki-03-2019-full" },
+      { "source": "/invite-04-2019", "destination": "/lp/invite-04-2019" },
+      { "source": "/stat-uchitelem", "destination": "/hr/tutors" },
+      { "source": "/english", "destination": "/lp/english" },
+      { "source": "/group", "destination": "/lp/group" },
+      { "source": "/mvu", "destination": "/hr/mvu" }
+    ]
+  },
+  "scale": {
+    "bru1": {
+      "min": 1,
+      "max": "auto"
     }
-  ],
-  "regions": ["bru1"]
+  }
 }
