@@ -12,6 +12,8 @@
       { "source": "/", "destination": "https://www.onlineschool.ru/" },
       { "source": "/faq", "destination": "https://www.onlineschool.ru/faq" },
       { "source": "/legal/oferta", "destination": "https://www.onlineschool.ru/legal/oferta" },
+      { "source": "/legal/contact", "destination": "https://www.onlineschool.ru/legal/contact" },
+      { "source": "/legal/privacy", "destination": "https://www.onlineschool.ru/legal/privacy" },
       { "source": "/downloads", "destination": "https://app.onlineschool.ru/downloads" },
       { "source": "/zavriki-gift-tyumen", "destination": "/" },
       { "source": "/zavriki-gift-moscow", "destination": "/" },
