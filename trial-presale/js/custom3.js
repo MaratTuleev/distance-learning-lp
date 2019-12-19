@@ -12,11 +12,16 @@ const redirectURLs = {
   dev: 'https://app.stage-onlineschool.ru/?login_type=parent_login',
   prod: 'https://app.onlineschool.ru/?login_type=parent_login',
 }
+const redirectTrialLessonSignupURLs = {
+  dev: 'https://app.stage-onlineschool.ru/trial-lesson-sign-up',
+  prod: 'https://app.onlineschool.ru/trial-lesson-sign-up',
+}
 
 const environment = 'prod'
 const apiRoot = apiRoots[environment]
 const cpPublicId = cpPublicIds[environment]
 const redirectURL = redirectURLs[environment]
+const redirectTrialLessonSignupURL = redirectTrialLessonSignupURLs[environment]
 
 const setupAnalytics = async () => {
   if (typeof window.analytics === 'undefined') {
@@ -161,6 +166,12 @@ const pay = function (form, data) {
     .then(res => res.json())
 }
 
+const redirectToTrialLessonSingUp = function() {
+  const url = new URL(window.location.href)
+
+  window.location = redirectTrialLessonSignupURL + url.search + '&trial_presale=true'
+}
+
 const payViaCloudPayments = ({ accountId, amount, currency, email, description, data }) => {
   const widget = new window.cp.CloudPayments()
 
@@ -189,6 +200,8 @@ const payViaCloudPayments = ({ accountId, amount, currency, email, description, 
 
 $(document).ready(function () {
   setupAnalytics()
+
+  $('#linkToRedirectToTrialPresale').on('click', redirectToTrialLessonSingUp);
 
   const signup_rec_id = '126478317';
   const scope_signup = $(`#rec${signup_rec_id}`);
