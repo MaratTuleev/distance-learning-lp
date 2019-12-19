@@ -168,8 +168,9 @@ const pay = function (form, data) {
 
 const redirectToTrialLessonSingUp = function() {
   const url = new URL(window.location.href)
+  const search = url.search.length > 0 ? url.search : '?'
 
-  window.location = redirectTrialLessonSignupURL + url.search + '&trial_presale=true'
+  window.location = redirectTrialLessonSignupURL + search + '&trial_presale=true'
 }
 
 const payViaCloudPayments = ({ accountId, amount, currency, email, description, data }) => {
@@ -201,7 +202,7 @@ const payViaCloudPayments = ({ accountId, amount, currency, email, description, 
 $(document).ready(function () {
   setupAnalytics()
 
-  $('#linkToRedirectToTrialPresale').on('click', redirectToTrialLessonSingUp);
+  $('a.linkToRedirectToTrialPresale').on('click', redirectToTrialLessonSingUp);
 
   const signup_rec_id = '126478317';
   const scope_signup = $(`#rec${signup_rec_id}`);
