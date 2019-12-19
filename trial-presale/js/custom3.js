@@ -168,9 +168,9 @@ const pay = function (form, data) {
 
 const redirectToTrialLessonSingUp = function() {
   const url = new URL(window.location.href)
-  const search = url.search.length > 0 ? url.search : '?'
+  const trialPresale = url.search.length > 0 ? '&trial_presale=true' : '?trial_presale=true'
 
-  window.location = redirectTrialLessonSignupURL + search + '&trial_presale=true'
+  window.location = redirectTrialLessonSignupURL + url.search + trialPresale
 }
 
 const payViaCloudPayments = ({ accountId, amount, currency, email, description, data }) => {
