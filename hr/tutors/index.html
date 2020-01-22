@@ -865,6 +865,42 @@
         <!--/footer-->
     </div>
     <!--/allrecords-->
+    <script>
+      $(document).ready(function() {
+        function ucfirst(s) {
+          return s.charAt(0).toUpperCase() + s.substr(1)
+        }
+        var prefillLinkHrefs = function() {
+          try {
+            var url = new URL(window.location.href);
+            var params = new URLSearchParams(url.search);
+            var qparamKeys = ['utm_source', 'utm_medium', 'utm_campaign', 'utm_term', 'utm_content', 'source']
+            var regex = new RegExp("theonlineschool\.typeform\.com")
+            var processLink = function(elem, key, content) {
+              var oldUrl = $(elem).attr("href");
+              var hash = oldUrl.split("#")[1];
+              var path = oldUrl.split("#")[0].split("?")[0];
+              var query = oldUrl.split("#")[0].split("?")[1] || "";
+              if (path && regex.test(path) && query.indexOf(key + "=" + content) === -1) {
+                var newUrl = path + "?" + query + (query ? "&" : "") + key + "=" + content + (hash ? "#" + hash : "")
+                $(elem).attr("href", newUrl);
+              }
+            }
+            for (var key of params.keys()) {
+              var content = params.get(key);
+              if (content != undefined && content != "" && qparamKeys.indexOf(key) !== -1) {
+                $("a").each(function () {
+                  processLink(this, key, content)
+                })
+              }
+            }
+          } catch (err) {
+            console.warn(err)
+          }
+        }
+        prefillLinkHrefs()
+      })
+    </script>
 </body>
 
 </html>
