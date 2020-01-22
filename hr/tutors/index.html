@@ -876,23 +876,36 @@
             var params = new URLSearchParams(url.search);
             var qparamKeys = ['utm_source', 'utm_medium', 'utm_campaign', 'utm_term', 'utm_content', 'source']
             var regex = new RegExp("theonlineschool\.typeform\.com")
-            var processLink = function(elem, key, content) {
+            var processLink = function(elem, pairs) {
               var oldUrl = $(elem).attr("href");
+              if (!oldUrl) {return}
               var hash = oldUrl.split("#")[1];
               var path = oldUrl.split("#")[0].split("?")[0];
               var query = oldUrl.split("#")[0].split("?")[1] || "";
-              if (path && regex.test(path) && query.indexOf(key + "=" + content) === -1) {
-                var newUrl = path + "?" + query + (query ? "&" : "") + key + "=" + content + (hash ? "#" + hash : "")
+
+              if (path && regex.test(path)) {
+                query = query.split("&").filter(o => !/^utm_/.test(o)).join("&")
+                for (var key of Object.keys(pairs)) {
+                  var content = pairs[key]
+                  if (query.indexOf(key + "=" + content) === -1) {
+                    query = query + (query ? "&" : "") + key + "=" + content
+                  }
+                }
+                var newUrl = path + "?" + query + (hash ? "#" + hash : "")
                 $(elem).attr("href", newUrl);
               }
             }
+            var pairs = {}
             for (var key of params.keys()) {
               var content = params.get(key);
               if (content != undefined && content != "" && qparamKeys.indexOf(key) !== -1) {
-                $("a").each(function () {
-                  processLink(this, key, content)
-                })
+                pairs[key] = content
               }
+            }
+            if (Object.keys(pairs).length) {
+              $("a").each(function () {
+                processLink(this, pairs)
+              })
             }
           } catch (err) {
             console.warn(err)
