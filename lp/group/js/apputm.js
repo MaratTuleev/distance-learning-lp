@@ -11,7 +11,7 @@ document.addEventListener("DOMContentLoaded", function(event) {
           var arPair, i, arParams = APPPAGE_QUERY.split('&');
           for (i in arParams) {
             arPair = arParams[i].split('=');
-            if (arPair[0].substring(0, 4) == 'utm_') {
+            if (arPair[0].substring(0, 4) === 'utm_' || arPair[0] === 'click_id') {
               APPPAGE_UTM = APPPAGE_UTM + arParams[i] + '|||'
             }
           }
