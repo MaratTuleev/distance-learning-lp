@@ -118,10 +118,12 @@ div {
 
 p {
   font-size: 200px;
+  line-height: 1;
   margin: 0;
   padding: 0;
   width: 100%;
   text-align: center;
   font-family: sans-serif;
+  word-break: break-all;
 }
 
