@@ -26,5 +26,20 @@ RewriteRule ^groups/$ page6573919.html [NC]
 RewriteRule ^course$ page7194041.html [NC]
 RewriteRule ^course/$ page7194041.html [NC]
 
+RewriteRule ^english/junior-metodology/$ page13782073.html [NC]
+RewriteRule ^english/junior-metodology//$ page13782073.html [NC]
+
+RewriteRule ^english/call-request$ page14024258.html [NC]
+RewriteRule ^english/call-request/$ page14024258.html [NC]
+
+RewriteRule ^english/partners/iviru$ page14044951.html [NC]
+RewriteRule ^english/partners/iviru/$ page14044951.html [NC]
+
+RewriteRule ^english/abc-metodology$ page14057582.html [NC]
+RewriteRule ^english/abc-metodology/$ page14057582.html [NC]
+
+RewriteRule ^english/kids-metodology/$ page14058706.html [NC]
+RewriteRule ^english/kids-metodology//$ page14058706.html [NC]
+
 RewriteRule ^favicon.ico$ https://static.tildacdn.com/tild3937-3538-4636-a233-616361316633/favicon.ico [R=302,L]
 
