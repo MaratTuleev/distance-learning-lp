@@ -14,8 +14,8 @@ RewriteRule ^english/kids-n-junior-cources/$ page12910153.html [NC]
 RewriteRule ^groups$ page6573919.html [NC]
 RewriteRule ^groups/$ page6573919.html [NC]
 
-RewriteRule ^cybermonday$ page16739182.html [NC]
-RewriteRule ^cybermonday/$ page16739182.html [NC]
+RewriteRule ^english/promo/cybermonday$ page16739182.html [NC]
+RewriteRule ^english/promo/cybermonday/$ page16739182.html [NC]
 
 RewriteRule ^english$ page14302166.html [NC]
 RewriteRule ^english/$ page14302166.html [NC]
