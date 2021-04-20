@@ -1,0 +1,99 @@
+ErrorDocument 403 /404.html
+ErrorDocument 404 /404.html
+
+DirectoryIndex page12910153.html
+
+RewriteEngine On
+
+RewriteCond %{REQUEST_FILENAME} /robots.txt
+RewriteCond "%{DOCUMENT_ROOT}/robots_%{HTTP_HOST}.txt" -f
+RewriteRule ^(.*)$ robots_%{HTTP_HOST}.txt [NC,L]
+RewriteRule ^vesna$ page17804556.html [NC]
+RewriteRule ^vesna/$ page17804556.html [NC]
+
+RewriteRule ^english/kids-n-junior-cources$ page12910153.html [NC]
+RewriteRule ^english/kids-n-junior-cources/$ page12910153.html [NC]
+
+RewriteRule ^groups$ page6573919.html [NC]
+RewriteRule ^groups/$ page6573919.html [NC]
+
+RewriteRule ^english$ page14302166.html [NC]
+RewriteRule ^english/$ page14302166.html [NC]
+
+RewriteRule ^social$ page18982687.html [NC]
+RewriteRule ^social/$ page18982687.html [NC]
+
+RewriteRule ^english/abc-metodology$ page14057582.html [NC]
+RewriteRule ^english/abc-metodology/$ page14057582.html [NC]
+
+RewriteRule ^23feb$ page17369740.html [NC]
+RewriteRule ^23feb/$ page17369740.html [NC]
+
+RewriteRule ^callback$ page3198963.html [NC]
+RewriteRule ^callback/$ page3198963.html [NC]
+
+RewriteRule ^english/useful-subscription$ page13157155.html [NC]
+RewriteRule ^english/useful-subscription/$ page13157155.html [NC]
+
+RewriteRule ^webinar$ page17414738.html [NC]
+RewriteRule ^webinar/$ page17414738.html [NC]
+
+RewriteRule ^course$ page7194041.html [NC]
+RewriteRule ^course/$ page7194041.html [NC]
+
+RewriteRule ^english/kids-metodology/$ page14058706.html [NC]
+RewriteRule ^english/kids-metodology//$ page14058706.html [NC]
+
+RewriteRule ^english/junior-metodology/$ page13782073.html [NC]
+RewriteRule ^english/junior-metodology//$ page13782073.html [NC]
+
+RewriteRule ^callme$ page15709267.html [NC]
+RewriteRule ^callme/$ page15709267.html [NC]
+
+RewriteRule ^english/promo/cybermonday$ page16739182.html [NC]
+RewriteRule ^english/promo/cybermonday/$ page16739182.html [NC]
+
+RewriteRule ^template-doma$ page12717525.html [NC]
+RewriteRule ^template-doma/$ page12717525.html [NC]
+
+RewriteRule ^english/online-platform$ page13668786.html [NC]
+RewriteRule ^english/online-platform/$ page13668786.html [NC]
+
+RewriteRule ^english/teens-metodology/$ page14137530.html [NC]
+RewriteRule ^english/teens-metodology//$ page14137530.html [NC]
+
+RewriteRule ^tasteofchristmas$ page16052167.html [NC]
+RewriteRule ^tasteofchristmas/$ page16052167.html [NC]
+
+RewriteRule ^english/promo/blackfriday$ page15102016.html [NC]
+RewriteRule ^english/promo/blackfriday/$ page15102016.html [NC]
+
+RewriteRule ^english/email-request$ page14024258.html [NC]
+RewriteRule ^english/email-request/$ page14024258.html [NC]
+
+RewriteRule ^english/partners/sberbank$ page17044090.html [NC]
+RewriteRule ^english/partners/sberbank/$ page17044090.html [NC]
+
+RewriteRule ^english/partners/raiffeisen$ page14807901.html [NC]
+RewriteRule ^english/partners/raiffeisen/$ page14807901.html [NC]
+
+RewriteRule ^tutors$ page15392710.html [NC]
+RewriteRule ^tutors/$ page15392710.html [NC]
+
+RewriteRule ^english/partners/okko$ page14527935.html [NC]
+RewriteRule ^english/partners/okko/$ page14527935.html [NC]
+
+RewriteRule ^english/partners/iviru$ page14044951.html [NC]
+RewriteRule ^english/partners/iviru/$ page14044951.html [NC]
+
+RewriteRule ^english/affiliate-program$ page13500123.html [NC]
+RewriteRule ^english/affiliate-program/$ page13500123.html [NC]
+
+RewriteRule ^partners$ page15153989.html [NC]
+RewriteRule ^partners/$ page15153989.html [NC]
+
+RewriteRule ^form-success-redirect$ page15822086.html [NC]
+RewriteRule ^form-success-redirect/$ page15822086.html [NC]
+
+RewriteRule ^favicon.ico$ https://static.tildacdn.com/tild3937-3538-4636-a233-616361316633/favicon.ico [R=302,L]
+
