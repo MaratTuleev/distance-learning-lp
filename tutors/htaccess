@@ -17,8 +17,8 @@ RewriteRule ^template-3/$ page12697150.html [NC]
 RewriteRule ^tutors/english-school$ page12916632.html [NC]
 RewriteRule ^tutors/english-school/$ page12916632.html [NC]
 
-RewriteRule ^tutors$ page15393566.html [NC]
-RewriteRule ^tutors/$ page15393566.html [NC]
+RewriteRule ^tutors$ page19231139.html [NC]
+RewriteRule ^tutors/$ page19231139.html [NC]
 
 RewriteRule ^template-2$ page12696535.html [NC]
 RewriteRule ^template-2/$ page12696535.html [NC]
@@ -26,17 +26,20 @@ RewriteRule ^template-2/$ page12696535.html [NC]
 RewriteRule ^template-4$ page12697860.html [NC]
 RewriteRule ^template-4/$ page12697860.html [NC]
 
-RewriteRule ^tutors/english-tutors$ page12698556.html [NC]
-RewriteRule ^tutors/english-tutors/$ page12698556.html [NC]
+RewriteRule ^tutors_old$ page15393566.html [NC]
+RewriteRule ^tutors_old/$ page15393566.html [NC]
 
 RewriteRule ^mentor$ page6485334.html [NC]
 RewriteRule ^mentor/$ page6485334.html [NC]
 
-RewriteRule ^tutors/english-online-platform$ page14240968.html [NC]
-RewriteRule ^tutors/english-online-platform/$ page14240968.html [NC]
+RewriteRule ^tutors/english-tutors$ page12698556.html [NC]
+RewriteRule ^tutors/english-tutors/$ page12698556.html [NC]
 
 RewriteRule ^index$ page6274574.html [NC]
 RewriteRule ^index/$ page6274574.html [NC]
+
+RewriteRule ^tutors/english-online-platform$ page14240968.html [NC]
+RewriteRule ^tutors/english-online-platform/$ page14240968.html [NC]
 
 RewriteRule ^favicon.ico$ https://static.tildacdn.com/img/tildafavicon.ico [R=302,L]
 
