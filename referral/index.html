@@ -6,7 +6,7 @@
         var APPPAGE_URL = window.location.href
           , APPPAGE_QUERY = ''
           , APPPAGE_UTM = '';
-        if (APPPAGE_URL.toLowerCase().indexOf('utm_') !== -1 || (APPPAGE_URL.toLowerCase().indexOf('referral_id') !== -1) {
+        if (APPPAGE_URL.toLowerCase().indexOf('utm_') !== -1 || (APPPAGE_URL.toLowerCase().indexOf('referral_id') !== -1)) {
           APPPAGE_URL = APPPAGE_URL.toLowerCase();
           APPPAGE_QUERY = (APPPAGE_URL.split("?")[1] || "").split("#")[0];
           if (typeof (APPPAGE_QUERY) == 'string') {
