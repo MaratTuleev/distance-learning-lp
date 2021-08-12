@@ -10,6 +10,5 @@ Disallow: /tilda/product*
 Disallow: /tilda/event*
 Disallow: /*_escaped_fragment_*
 Disallow:
-Clean-param: editionuid&from&utm_referer&r&ref&rs&yhid&keyword&sub1
 Sitemap: http://doma.uchi.ru/sitemap.xml
 Host: doma.uchi.ru
