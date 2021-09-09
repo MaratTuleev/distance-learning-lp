@@ -105,16 +105,14 @@
     prefillLinkHrefs()
   })
 </script><script>
-$(document).ready(function () {
-  setTimeout(function () {
-    document.querySelectorAll('button.t-submit').forEach((button) => {
-      button.setAttribute('data-analytics-event', 'reg')
-      button.setAttribute('data-analytics-track', 'click')
-      button.setAttribute('data-analytics-label', 'success')
-      button.setAttribute('data-analytics-category', 'webinar')
+function t396_onSuccess($form) {
+    ga('send', {
+      hitType: 'event',
+    eventCategory: 'webinar',
+    eventAction: 'reg',
+    eventLabel: 'success'
     })
-  }, 3000)
-})
+  }
 </script><script type="text/javascript">window.dataLayer = window.dataLayer || [];</script><!-- Google Tag Manager --><script type="text/javascript">(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':	new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],	j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=	'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);	})(window,document,'script','dataLayer','GTM-WKD4RVP');</script><!-- End Google Tag Manager --><!-- Facebook Pixel Code --><script>setTimeout(function(){!function(f,b,e,v,n,t,s)
 {if(f.fbq)return;n=f.fbq=function(){n.callMethod?n.callMethod.apply(n,arguments):n.queue.push(arguments)};
 if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';n.agent='pltilda';
