@@ -107,11 +107,20 @@ RewriteRule ^webinar/kak_postupit_vuz_mechtu/$ page21975390.html [NC]
 RewriteRule ^partners/sbermegamarket$ page22028915.html [NC]
 RewriteRule ^partners/sbermegamarket/$ page22028915.html [NC]
 
-RewriteRule ^english/partners/schoolrate/$ page22093360.html [NC]
-RewriteRule ^english/partners/schoolrate//$ page22093360.html [NC]
+RewriteRule ^m/schoolrate/$ page22093360.html [NC]
+RewriteRule ^m/schoolrate//$ page22093360.html [NC]
 
-RewriteRule ^email/$ page22120776.html [NC]
-RewriteRule ^email//$ page22120776.html [NC]
+RewriteRule ^m/email/$ page22120776.html [NC]
+RewriteRule ^m/email//$ page22120776.html [NC]
+
+RewriteRule ^english/promo/quiz_tiktok$ page22233103.html [NC]
+RewriteRule ^english/promo/quiz_tiktok/$ page22233103.html [NC]
+
+RewriteRule ^english/promo/quiz_eng$ page22233531.html [NC]
+RewriteRule ^english/promo/quiz_eng/$ page22233531.html [NC]
+
+RewriteRule ^m/quiz_prof$ page22566650.html [NC]
+RewriteRule ^m/quiz_prof/$ page22566650.html [NC]
 
 RewriteRule ^favicon.ico$ https://static.tildacdn.com/tild3937-3538-4636-a233-616361316633/favicon.ico [R=302,L]
 
