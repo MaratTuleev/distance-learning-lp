@@ -125,5 +125,8 @@ RewriteRule ^m/quiz_prof/$ page22566650.html [NC]
 RewriteRule ^webinar/dz_pomoshch$ page22628062.html [NC]
 RewriteRule ^webinar/dz_pomoshch/$ page22628062.html [NC]
 
+RewriteRule ^work$ page22914488.html [NC]
+RewriteRule ^work/$ page22914488.html [NC]
+
 RewriteRule ^favicon.ico$ https://static.tildacdn.com/tild3937-3538-4636-a233-616361316633/favicon.ico [R=302,L]
 
