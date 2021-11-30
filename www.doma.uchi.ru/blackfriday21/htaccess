@@ -110,6 +110,12 @@ RewriteRule ^form-success-redirect/$ page15822086.html [NC]
 RewriteRule ^work$ page22914488.html [NC]
 RewriteRule ^work/$ page22914488.html [NC]
 
+RewriteRule ^m/autowebinar$ page23202136.html [NC]
+RewriteRule ^m/autowebinar/$ page23202136.html [NC]
+
+RewriteRule ^middle-school$ page23492287.html [NC]
+RewriteRule ^middle-school/$ page23492287.html [NC]
+
 RewriteRule ^partners/sbermegamarket$ page22028915.html [NC]
 RewriteRule ^partners/sbermegamarket/$ page22028915.html [NC]
 
