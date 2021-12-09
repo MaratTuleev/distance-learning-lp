@@ -143,6 +143,9 @@ RewriteRule ^webinar/ege_zigmund/$ page23578425.html [NC]
 RewriteRule ^m/affiliate-program$ page23752452.html [NC]
 RewriteRule ^m/affiliate-program/$ page23752452.html [NC]
 
+RewriteRule ^ege/webinars$ page23958144.html [NC]
+RewriteRule ^ege/webinars/$ page23958144.html [NC]
+
 RewriteRule ^m/teens79$ page23965283.html [NC]
 RewriteRule ^m/teens79/$ page23965283.html [NC]
 
