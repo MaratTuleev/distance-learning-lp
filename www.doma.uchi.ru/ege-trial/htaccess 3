@@ -149,5 +149,8 @@ RewriteRule ^m/teens79/$ page23965283.html [NC]
 RewriteRule ^m/teens56$ page23975388.html [NC]
 RewriteRule ^m/teens56/$ page23975388.html [NC]
 
+RewriteRule ^webinar/leni_net$ page24000642.html [NC]
+RewriteRule ^webinar/leni_net/$ page24000642.html [NC]
+
 RewriteRule ^favicon.ico$ https://static.tildacdn.com/tild3937-3538-4636-a233-616361316633/favicon.ico [R=302,L]
 
