@@ -92,8 +92,8 @@ RewriteRule ^english/partners/iviru/$ page14044951.html [NC]
 RewriteRule ^webinar/i_love_to_study$ page21858652.html [NC]
 RewriteRule ^webinar/i_love_to_study/$ page21858652.html [NC]
 
-RewriteRule ^webinar/kak_postupit$ page21975390.html [NC]
-RewriteRule ^webinar/kak_postupit/$ page21975390.html [NC]
+RewriteRule ^webinar/kak_postupit_vuz_mechtu$ page21975390.html [NC]
+RewriteRule ^webinar/kak_postupit_vuz_mechtu/$ page21975390.html [NC]
 
 RewriteRule ^english/affiliate-program$ page13500123.html [NC]
 RewriteRule ^english/affiliate-program/$ page13500123.html [NC]
