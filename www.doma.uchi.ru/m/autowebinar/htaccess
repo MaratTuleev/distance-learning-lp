@@ -92,8 +92,8 @@ RewriteRule ^english/partners/iviru/$ page14044951.html [NC]
 RewriteRule ^webinar/i_love_to_study$ page21858652.html [NC]
 RewriteRule ^webinar/i_love_to_study/$ page21858652.html [NC]
 
-RewriteRule ^webinar/kak_postupit$ page21975390.html [NC]
-RewriteRule ^webinar/kak_postupit/$ page21975390.html [NC]
+RewriteRule ^webinar/kak_postupit_vuz_mechtu$ page21975390.html [NC]
+RewriteRule ^webinar/kak_postupit_vuz_mechtu/$ page21975390.html [NC]
 
 RewriteRule ^english/affiliate-program$ page13500123.html [NC]
 RewriteRule ^english/affiliate-program/$ page13500123.html [NC]
@@ -112,6 +112,9 @@ RewriteRule ^work/$ page22914488.html [NC]
 
 RewriteRule ^m/autowebinar$ page23202136.html [NC]
 RewriteRule ^m/autowebinar/$ page23202136.html [NC]
+
+RewriteRule ^ege-trial$ page23375803.html [NC]
+RewriteRule ^ege-trial/$ page23375803.html [NC]
 
 RewriteRule ^middle-school$ page23492287.html [NC]
 RewriteRule ^middle-school/$ page23492287.html [NC]
@@ -136,6 +139,33 @@ RewriteRule ^m/quiz_prof/$ page22566650.html [NC]
 
 RewriteRule ^webinar/ege_zigmund$ page23578425.html [NC]
 RewriteRule ^webinar/ege_zigmund/$ page23578425.html [NC]
+
+RewriteRule ^m/affiliate-program$ page23752452.html [NC]
+RewriteRule ^m/affiliate-program/$ page23752452.html [NC]
+
+RewriteRule ^ege/webinars$ page23958144.html [NC]
+RewriteRule ^ege/webinars/$ page23958144.html [NC]
+
+RewriteRule ^m/teens79$ page23965283.html [NC]
+RewriteRule ^m/teens79/$ page23965283.html [NC]
+
+RewriteRule ^m/teens56$ page23975388.html [NC]
+RewriteRule ^m/teens56/$ page23975388.html [NC]
+
+RewriteRule ^webinar/leni_net$ page24000642.html [NC]
+RewriteRule ^webinar/leni_net/$ page24000642.html [NC]
+
+RewriteRule ^webinar/alternativ$ page24061468.html [NC]
+RewriteRule ^webinar/alternativ/$ page24061468.html [NC]
+
+RewriteRule ^new-year-holiday-ege-2022$ page24285690.html [NC]
+RewriteRule ^new-year-holiday-ege-2022/$ page24285690.html [NC]
+
+RewriteRule ^m/ege1011$ page24321982.html [NC]
+RewriteRule ^m/ege1011/$ page24321982.html [NC]
+
+RewriteRule ^ege2022$ page24344152.html [NC]
+RewriteRule ^ege2022/$ page24344152.html [NC]
 
 RewriteRule ^favicon.ico$ https://static.tildacdn.com/tild3937-3538-4636-a233-616361316633/favicon.ico [R=302,L]
 
