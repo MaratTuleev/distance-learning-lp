@@ -164,5 +164,14 @@ RewriteRule ^new-year-holiday-ege-2022/$ page24285690.html [NC]
 RewriteRule ^m/ege1011$ page24321982.html [NC]
 RewriteRule ^m/ege1011/$ page24321982.html [NC]
 
+RewriteRule ^ege2022$ page24344152.html [NC]
+RewriteRule ^ege2022/$ page24344152.html [NC]
+
+RewriteRule ^ng$ page24475170.html [NC]
+RewriteRule ^ng/$ page24475170.html [NC]
+
+RewriteRule ^m/math19$ page24586430.html [NC]
+RewriteRule ^m/math19/$ page24586430.html [NC]
+
 RewriteRule ^favicon.ico$ https://static.tildacdn.com/tild3937-3538-4636-a233-616361316633/favicon.ico [R=302,L]
 
