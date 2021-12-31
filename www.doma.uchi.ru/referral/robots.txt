@@ -1,5 +1,6 @@
 User-Agent: *
 Disallow: /page14064181.html
+Disallow: /page24570555.html
 Disallow: /tilda/form*
 Disallow: /tilda/rec*
 Disallow: /tilda/click*
@@ -10,5 +11,7 @@ Disallow: /tilda/product*
 Disallow: /tilda/event*
 Disallow: /*_escaped_fragment_*
 Disallow:
+
+
 Sitemap: http://doma.uchi.ru/sitemap.xml
 Host: doma.uchi.ru
