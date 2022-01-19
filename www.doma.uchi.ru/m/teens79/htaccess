@@ -176,5 +176,8 @@ RewriteRule ^m/math19/$ page24586430.html [NC]
 RewriteRule ^ege/webinars$ page24838893.html [NC]
 RewriteRule ^ege/webinars/$ page24838893.html [NC]
 
-RewriteRule ^favicon.ico$ https://static.tildacdn.com/tild3937-3538-4636-a233-616361316633/favicon.ico [R=302,L]
+RewriteRule ^pageform$ page24918376.html [NC]
+RewriteRule ^pageform/$ page24918376.html [NC]
+
+RewriteRule ^favicon.ico$ https://static.tildacdn.com/tild3965-6630-4632-b031-623836643266/favicon.ico [R=302,L]
 
